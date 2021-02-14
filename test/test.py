@@ -9,7 +9,7 @@ class social(commands.Cog):
     async def socials(self, ctx):
         embed = discord.Embed(
             title="***R&D***\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
-            description="**Discord:**\n• <discord.gg/MjeCHjQbqn>\n\n",
+            description="**Discord:**\n• <https://discord.com/invite/MjeCHjQbqn>\n\n",
             color=0xee3463,
             timestamp=ctx.message.created_at
         )
