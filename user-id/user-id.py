@@ -3,6 +3,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
+
 class userID(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -16,6 +17,7 @@ class userID(commands.Cog):
         else:
             member = thread.recipient
         await ctx.send(f"{member.mention}'s ID is {member.id}")
+
 
 def setup(bot):
     bot.add_cog(userID(bot))
