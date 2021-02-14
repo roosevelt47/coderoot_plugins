@@ -29,9 +29,8 @@ class social(commands.Cog):
         embed.set_footer(text="Management Team",
                          icon_url="https://cdn.discordapp.com/icons/768497538839871519/a_48fd1abc638cf92fad8a8fb09c1ee04f.gif?size=1024")
         await ctx.send(embed=embed)
-        await ctx.send("Invite link: discord.gg/FvmgmyDDRn")
+        await ctx.send("***Invite link: discord.gg/FvmgmyDDRn***")
 
 
 def setup(bot):
     bot.add_cog(social(bot))
-
